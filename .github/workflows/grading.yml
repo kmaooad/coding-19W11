@@ -25,7 +25,7 @@ jobs:
       with:
         dotnet-version: 2.1.802
     - name: Download spec
-      run: Invoke-WebRequest -Uri https://raw.githubusercontent.com/kmaooad/coding-19W10/master/Spec.fs -OutFile Spec.fs
+      run: Invoke-WebRequest -Uri https://raw.githubusercontent.com/kmaooad/coding-19W11/master/Spec.fs -OutFile Spec.fs
       shell: powershell
     - name: Test
       run: dotnet test
